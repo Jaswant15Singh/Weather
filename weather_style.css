@@ -1,0 +1,100 @@
+html, body {
+    /* height: 100%; */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-image: url("https://www.shutterstock.com/image-vector/realistic-illustration-autumn-night-rain-600nw-1932348497.jpg"); */
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0; */
+    min-height: 80vh;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    width: 50%;
+    max-width: 350px;
+    /* max-height: 200px; */
+    background-color:white;
+    /* background-image: url("https://wallpapers.com/images/hd/blue-thunderstorm-weather-78yz410ba26zif8c.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:rgb(20, 105, 105);
+    border-radius: 30px;
+    margin-top: 30px;
+}
+.search{
+    height: 50px;
+    width: auto;
+    margin-left: 0px;
+    padding: 10px;
+    /* border-radius: 60px; */
+    margin-top: 20px;
+}
+
+.search input{
+    border-radius: 15px;
+}
+.search button{
+    
+    cursor: pointer;
+    margin-bottom: 20px;
+    
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.details img{
+    height: 150px;
+    border-radius: 25px;
+}
+
+.details{
+    display: none;
+}
+.details .city{
+    color: white;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.details .temp{
+    color: white;
+    margin-bottom: 10px;
+}
+
+.more{
+    width: 100%;;
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.more{
+display: none;
+}
+/* ahaha */
